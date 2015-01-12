@@ -10,14 +10,9 @@ apt_repository 'brightbox-ruby-ng' do
 end
 
 apt_package 'build-essential'
-apt_package 'ruby2.1'
 apt_package 'ruby2.1-dev'
 apt_package 'git'
 
-gem_package 'bundler' do
-  version '1.7.9'
-  gem_binary '/usr/bin/gem'
-end
 gem_package 'thin' do
   version '1.6.3'
   gem_binary '/usr/bin/gem'
