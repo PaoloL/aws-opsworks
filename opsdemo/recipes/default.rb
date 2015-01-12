@@ -43,8 +43,6 @@ nodejs_npm 'bower' do
   version '1.3.12'
 end
 
-include_recipe 'nginx'
-
 template '/etc/nginx/sites-available/posso.com' do
   source 'posso.com.erb'
   mode '00644'

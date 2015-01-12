@@ -1,7 +1,7 @@
 name 'posso'
 version '0.1.0'
 
-#depends 'apt'
+depends 'apt'
 depends 'nodejs'
 #depends 'nginx'
 #depends 'mysql-chef_gem', '= 0.0.5'
