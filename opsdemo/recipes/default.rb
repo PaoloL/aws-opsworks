@@ -12,6 +12,7 @@ end
 apt_package 'build-essential'
 apt_package 'ruby2.1-dev'
 apt_package 'git'
+apt-package 'libmysqlclient-dev'
 
 gem_package 'thin' do
   version '1.6.3'
