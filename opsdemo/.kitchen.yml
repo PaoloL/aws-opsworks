@@ -11,6 +11,6 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[posso::default]
-      - recipe[posso::db]
+      - recipe[opsdemo::default]
+      - recipe[opsdemo::db]
     attributes:
